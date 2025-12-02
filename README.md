@@ -1,7 +1,7 @@
 # Book-Store
-Gjun POS 系統：基於 Java Swing GUI 介面和三層式架構設計的簡易銷售點管理系統。支援會員登入、商品瀏覽、結帳交易與員工商品維護功能。
+書旅人 POS 系統：基於 Java Swing GUI 介面和三層式架構設計的簡易銷售點管理系統。支援會員登入、商品瀏覽、結帳交易與員工商品維護功能。
 
-# 📚 Gjun 簡易 POS (銷售點) 管理系統
+# 📚 書旅人 簡易 POS (銷售點) 管理系統
 
 這是一個使用 **Java Swing** 桌面應用程式介面 (GUI) 實現的簡易銷售點管理系統。專案採用經典的 **三層式架構**（Controller/Service/DAO），用於模擬基本的書籍或商品銷售與員工管理流程。
 
@@ -28,7 +28,7 @@ Gjun POS 系統：基於 Java Swing GUI 介面和三層式架構設計的簡易�
 
 ## 📂 專案結構 (Controller 層檔案列表)
 
-您的專案的 Controller (介面) 層包含了以下關鍵的視窗檔案：
+專案的 Controller (介面) 層包含了以下關鍵的視窗檔案：
 
 * `MainFrame.java`: 應用程式主入口。
 * `MemberLoginFrame.java`: 會員登入。
@@ -47,7 +47,7 @@ Gjun POS 系統：基於 Java Swing GUI 介面和三層式架構設計的簡易�
 
 ### 商品維護介面 (AddProductFrame)
 
-* **簡化設計：** 介面只顯示商品編號、名稱、價格，表格中已移除內部 ID 欄位。
+* **簡化設計：** 介面只顯示商品編號、名稱、價格欄位。
 * **返回邏輯：** 提供「返回員工首頁」按鈕，可順暢回到 `ClerkFunctionFrame`。
 
 ## 🛠️ 如何運行專案
